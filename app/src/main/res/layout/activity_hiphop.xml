@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hiphop">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/bg"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/hiphop"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/lanjut"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="280dp"/>
+
+    </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/hopmat">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="499dp"
+                android:text="Memuat Materi"
+                android:textSize="25sp"
+                android:layout_marginTop="130dp"
+                android:textColor="#ffffff"/>
+
+        </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
